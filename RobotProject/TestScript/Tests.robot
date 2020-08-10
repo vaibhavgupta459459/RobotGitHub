@@ -12,7 +12,7 @@ Test2
 
 Test3
     Open Browser    ${URL}    ${Browser}
-    Capture Page Screenshot    Test.png
+    Capture Page Screenshot
     sleep    10s
     Close Browser
 
