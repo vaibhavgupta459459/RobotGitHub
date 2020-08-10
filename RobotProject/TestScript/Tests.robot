@@ -12,6 +12,7 @@ Test2
 
 Test3
     Open Browser    ${URL}    ${Browser}
+    Maximize Browser Window
     Wait Until Page Contains    Google
     Capture Page Screenshot
     Input Text    xpath://input[@name='q']    RobotFramework
