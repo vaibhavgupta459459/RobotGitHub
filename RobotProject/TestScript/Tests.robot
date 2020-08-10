@@ -12,8 +12,13 @@ Test2
 
 Test3
     Open Browser    ${URL}    ${Browser}
+    Wait Until Page Contains    Google
     Capture Page Screenshot
-    sleep    10s
+    Input Text    xpath://input[@name='q']    RobotFramework
+    Capture Page Screenshot
+    Click Element    xpath://input[@name='btnK']
+    Wait Until Page Contains    Robot Framework
+    Capture Page Screenshot
     Close Browser
 
 
